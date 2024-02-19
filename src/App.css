@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+.player-list-container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: auto; 
+  background-color: orange;
+}
+@keyframes flash {
+  0%, 49.9% {
+    background-color: orange;
+    border-color: white;
+  }
+  50%, 100% {
+    background-color: white;
+  }
+}
+.button-flash {
+  animation: flash 1s infinite;
+}
+.box {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px; 
+  background-color: orange;
+}

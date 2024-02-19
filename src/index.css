@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  line-height: 1.8;
+  font-weight: 600;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -28,11 +28,23 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url(https://img.freepik.com/premium-vector/american-football-arena-field-with-bright-stadium-lights-vector-design_116849-1623.jpg?w=1060);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: lightgreen;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.8em;
   line-height: 1.1;
+  color: orange;
+  text-shadow: 
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black,
+    0 0 5px black;
 }
 
 button {
